@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Tambah Siswa - SMAN 13 Sinjai</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>Sistem Informasi SMAN 13 Sinjai</header>
+
+  <div class="container">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+      <a href="dashboard.html">Dashboard</a>
+      <a href="tabel.html">Data Siswa</a>
+      <a href="form.html" class="aktif">Tambah Siswa</a>
+      <a href="login.html">Keluar</a>
+    </div>
+
+    <!-- KONTEN -->
+    <div class="konten">
+      <h2>Tambah Siswa</h2>
+
+      <div class="kartu">
+
+        <div class="form-baris">
+          <label>Foto</label>
+          <input type="file" accept="image/*">
+        </div>
+
+        <div class="form-baris">
+          <label>NIS</label>
+          <input type="text" placeholder="Masukkan NIS">
+        </div>
+
+        <div class="form-baris">
+          <label>Nama Lengkap</label>
+          <input type="text" placeholder="Nama lengkap siswa">
+        </div>
+
+        <div class="form-baris">
+          <label>Jenis Kelamin</label>
+          <div class="grup-radio">
+            <label><input type="radio" name="jk" value="L"> Laki-laki</label>
+            <label><input type="radio" name="jk" value="P"> Perempuan</label>
+          </div>
+        </div>
+
+        <div class="form-baris">
+          <label>Tanggal Lahir</label>
+          <input type="date">
+        </div>
+
+        <div class="form-baris">
+          <label>Kelas</label>
+          <select>
+            <option value="">-- Pilih Kelas --</option>
+            <option>X</option>
+            <option>XI</option>
+            <option>XII</option>
+          </select>
+        </div>
+
+        <div class="form-baris">
+          <label>Jurusan</label>
+          <select>
+            <option value="">-- Pilih Jurusan --</option>
+            <option>IPA</option>
+            <option>IPS</option>
+          </select>
+        </div>
+
+        <div class="form-baris">
+          <label></label>
+          <div style="display:flex; gap:10px;">
+            <button class="tombol tombol-biru">Simpan</button>
+            <button class="tombol tombol-abu" type="reset">Batal</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <footer>© 2026 SMAN 13 Sinjai</footer>
+
+</body>
+</html>
